@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_ten"
+        android:layout_weight="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:text="Hom nay di hoc"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_black_36dp"
+        android:id="@+id/iv_delete"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_settings_black_36dp"
+        android:id="@+id/iv_settings"/>
+</LinearLayout>
